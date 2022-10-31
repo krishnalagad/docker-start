@@ -27,3 +27,6 @@ docker rm <containerID | containerName>
 
 // remove image
 docker rmi <imageId | imageName>
+
+// restart the running container
+docker restart <containerId | containerName>

@@ -1,0 +1,29 @@
+// pull image
+docker pull <imagename>
+
+// search image
+docker search <imagename>
+
+// run image in detached mode
+docker run --name <containerName> -d <imagename | ID>
+
+// run image in interactive mode
+docker run --name <containerName> -it -d <imagename | ID>
+
+// execute the containner
+docker exec -it <containerID> <commandname>
+
+// see containers
+docker ps -a
+
+// see details of container
+docker inspect <containerId>
+
+// stop running container
+docker stop <containerName | containerID | InitialsOfId>
+
+// remove container
+docker rm <containerID | containerName>
+
+// remove image
+docker rmi <imageId | imageName>

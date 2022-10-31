@@ -30,3 +30,6 @@ docker rmi <imageId | imageName>
 
 // restart the running container
 docker restart <containerId | containerName>
+
+// check logs of container
+docker logs <containerName>

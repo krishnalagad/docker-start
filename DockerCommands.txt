@@ -33,3 +33,6 @@ docker restart <containerId | containerName>
 
 // check logs of container
 docker logs <containerName>
+
+// build image
+docker build -t <imageName>
